@@ -7,7 +7,7 @@ AI image generation plugin for Sero, powered by Gemini. Generate, view, and mana
 Install in **Sero → Admin → Plugins** with:
 
 ```text
-git:https://github.com/sero-ai/sero-imagegen-plugin.git
+git:https://github.com/monobyte/sero-imagegen-plugin.git
 ```
 
 Sero clones the source repo, installs its dependencies locally, builds the UI,
@@ -18,7 +18,7 @@ and then hot-loads the plugin into the sidebar.
 Install as a Pi package:
 
 ```bash
-pi install git:https://github.com/sero-ai/sero-imagegen-plugin.git
+pi install git:https://github.com/monobyte/sero-imagegen-plugin.git
 ```
 
 The agent gains image generation tools and a gallery view for browsing generated images.
