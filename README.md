@@ -18,7 +18,7 @@ and then hot-loads the plugin into the sidebar.
 Install as a Pi package:
 
 ```bash
-pi install npm:@sero-ai/plugin-imagegen
+pi install git:https://github.com/sero-ai/sero-imagegen-plugin.git
 ```
 
 The agent gains image generation tools and a gallery view for browsing generated images.
