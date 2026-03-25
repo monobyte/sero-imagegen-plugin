@@ -1,6 +1,6 @@
 {
   "name": "@sero-ai/plugin-imagegen",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Gemini Nano Banana image generation plugin for Sero",
   "keywords": [
     "pi-package"
@@ -34,7 +34,27 @@
       ],
       "minSeroVersion": "0.1.0",
       "preBuilt": false
-    }
+    },
+    "widgets": [
+      {
+        "id": "gallery",
+        "name": "Gallery",
+        "component": "ImageGenWidget",
+        "description": "Recent generated images with prompt previews",
+        "defaultSize": {
+          "w": 2,
+          "h": 2
+        },
+        "minSize": {
+          "w": 2,
+          "h": 2
+        },
+        "maxSize": {
+          "w": 4,
+          "h": 3
+        }
+      }
+    ]
   },
   "dependencies": {
     "@sinclair/typebox": "^0.34.48",
